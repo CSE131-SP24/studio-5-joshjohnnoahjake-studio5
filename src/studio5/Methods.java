@@ -38,6 +38,15 @@ public class Methods {
 		StdDraw.setPenColor(StdDraw.BLACK);
 		StdDraw.filledCircle(x, y, radius);
 		
+		StdDraw.setPenColor(0, 109, 219);
+		StdDraw.filledCircle(x, y, 0.75*radius);
+		
+		StdDraw.setPenColor(146, 0, 0);
+		StdDraw.filledCircle(x, y, 0.5*radius);
+		
+		StdDraw.setPenColor(255, 255, 109);
+		StdDraw.filledCircle(x, y, 0.25*radius);
+		
 		
 		// TODO: Draw the remaining rings of the bull's eye
 		// Blue ring with 3.0/4.0 the radius
